@@ -1,96 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
-    <link rel="shortcut icon" type="images" href="images/1.jpg">
-
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-
-    <!-- navbar section starts  -->
-
-    <nav class="navbar">
-        <a href="index.html"> <i class="fas fa-home"></i> <span>home</span> </a>
-        <a href="about.html"> <i class="fas fa-user"></i> <span>about</span> </a>
-        <a href="youtube.html"> <i class="fas fa-video"></i> <span>YouTube</span> </a>
-        <a href="contact.html"> <i class="fas fa-book-reader"></i> <span>contact</span> </a>
-    </nav>
-    <!-- navbar section ends -->
-
-    <!-- contact section starts  -->
-
-    <section class="contact">
-
-        <h1 class="heading"> contact <span>me</span> </h1>
-
-        <div class="row">
-
-            <div class="info-container">
-
-                <h1>get in touch</h1>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorem sunt sapiente vel minus eaque voluptate fugit corrupti omnis tempora?</p>
-
-                <div class="box-container">
-
-
-
-                    <div class="box">
-                        <i class="fas fa-envelope"></i>
-                        <div class="info">
-                            <h3>email :</h3>
-                            <p>demiantech@gmail.com</p>
-                        </div>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Contact us</title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+    <div class="container">
+        <div class="text">Contact us</div>
+        <form action="#">
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" required>
+                 <div class="underline"></div>
+                 <label for="">First Name</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required>
+                 <div class="underline"></div>
+                 <label for="">Last Name</label>
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" required>
+                 <div class="underline"></div>
+                 <label for="">Email Address</label>
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data textarea">
+                 <textarea rows="8" cols="80" required></textarea>
+                 <br />
+                 <div class="underline"></div>
+                 <label for="">Write your message</label>
+                 <br />
+                 <div class="form-row submit-btn">
+                    <div class="input-data">
+                       <div class="inner"></div>
+                       <input type="submit" value="submit">
                     </div>
-
-
-
-                </div>
-
-                <div class="share">
-                    <a href="https://www.youtube.com/channel/UCVfl3KMxP4Gpqs3Ngwsao4w" class="fab fa-youtube"></a>
-                    <a href="https://t.me/+SA9dCQ_NJOk1YWQ9" class="fab fa-telegram"></a>
-                    <a href="https://invite.viber.com/?g2=AQBFQWRdgtTrbk5KV7WeDFgZBQx8FM7eOpPZptu868RN1bbjccRUtX1Bner%2FDpCt" class="fab fa-viber"></a>
-                    <a href="https://github.com/GNiruthian" class="fab fa-github"></a>
-                </div>
-
-            </div>
-
-            <form action=" ">
-
-                <div class="inputBox ">
-                    <input type="text " placeholder="your name ">
-                    <input type="number " placeholder="your number ">
-                </div>
-
-                <div class="inputBox ">
-                    <input type="email " placeholder="your email ">
-                    <input type="text " placeholder="your subject ">
-                </div>
-
-                <textarea name=" " placeholder="your message " id=" " cols="30 " rows="10 "></textarea>
-
-               <button type="submit " value="send message " class="btn "> </button> 
-
-            </form>
-
-        </div>
-
-    </section>
-
-    <!-- contact section ends -->
-
-</body>
-
+                 </div>
+              </div>
+           </div>
+        </form>
+     </div>
+   </body>
 </html>
